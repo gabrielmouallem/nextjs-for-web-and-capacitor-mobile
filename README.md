@@ -1,6 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# NextJS Working on WEB mantaining the Mobile version at the same Project!
+
+When you have a mobile project based on Web Development (Capacitor Like project, but can be with another framework) and you want to use NextJS in the Web version and keep the mobile version functional you need to to some adjustments in order to make routing work and generate the build files that feeds the capacitor webview.
+
+This is a repo that does this with efficiency and can be used as a boilerplate for other projects that want to migrate to NextJS and keep the mobile version in the same repo.
+
+
+# Mobile Server:
+
+Run the following commands in order to run the mobile version:
+
+npx next build
+npx next export
+npx cap sync
+npx cap open android (or ios)
+
+## WEB Server:
 
 First, run the development server:
 
@@ -32,8 +48,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# NextJS Working on WEB mantaining the Mobile version at the same Project!
-
-When you have a mobile project based on Web Development (Capacitor Like project, but can be with another framework) and you want to use NextJS in the Web version and keep the mobile version functional you need to to some adjustments in order to make routing work and generate the build files that feeds the capacitor webview.
-
-This is a repo that does this with efficiency and can be used as a boilerplate for other projects that want to migrate to NextJS and keep the mobile version in the same repo.
