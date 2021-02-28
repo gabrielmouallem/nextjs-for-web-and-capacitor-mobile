@@ -7,16 +7,18 @@ When you have a mobile project based on Web Development (Capacitor Like project,
 This is a repo that does this with efficiency and can be used as a boilerplate for other projects that want to migrate to NextJS and keep the mobile version in the same repo.
 
 
-# Mobile Server:
+# For Mobile:
 
 Run the following commands in order to run the mobile version:
 
+```bash
 npx next build
 npx next export
 npx cap sync
 npx cap open android (or ios)
+```
 
-## WEB Server:
+# For WEB:
 
 First, run the development server:
 
