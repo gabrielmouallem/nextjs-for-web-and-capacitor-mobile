@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# NextJS Working on WEB mantaining the Mobile version at the same Project!
+# NextJS Working on WEB and Mobile!
 
 When you have a mobile project based on Web Development (Capacitor Like project, but can be with another framework) and you want to use NextJS in the Web version and keep the mobile version functional you'll need to to some adjustments. This is because you need to make routing work and generate the build files that feeds the Capacitor webview.
 
