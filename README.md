@@ -18,6 +18,13 @@ npx cap sync
 npx cap open android (or ios)
 ```
 
+You also need to paste this code into your android build.gradle (module: app) defaultConfig:
+```bash
+aaptOptions {
+    ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
+}
+```
+
 # For WEB:
 
 First, run the development server:
