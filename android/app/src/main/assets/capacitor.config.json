@@ -1,0 +1,14 @@
+{
+  "appId": "com.nextjs.mobile.app",
+  "appName": "NextJS Mobile",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "out",
+  "linuxAndroidStudioPath": "/snap/android-studio/100/android-studio/bin/studio.sh",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
